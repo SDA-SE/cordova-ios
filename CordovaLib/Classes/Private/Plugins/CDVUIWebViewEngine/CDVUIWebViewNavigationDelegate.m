@@ -16,7 +16,7 @@
  specific language governing permissions and limitations
  under the License.
  */
-
+#if !WK_WEB_VIEW_ONLY
 #import "CDVUIWebViewNavigationDelegate.h"
 #import <Cordova/CDVViewController.h>
 #import <Cordova/CDVCommandDelegateImpl.h>
@@ -151,3 +151,4 @@
 }
 
 @end
+#endif

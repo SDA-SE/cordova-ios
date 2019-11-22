@@ -20,3 +20,5 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+#define WK_WEB_VIEW_ONLY 1

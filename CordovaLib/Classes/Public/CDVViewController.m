@@ -20,7 +20,6 @@
 #import <objc/message.h>
 #import "CDV.h"
 #import "CDVPlugin+Private.h"
-#import "CDVUIWebViewDelegate.h"
 #import "CDVConfigParser.h"
 #import "CDVUserAgentUtil.h"
 #import <AVFoundation/AVFoundation.h>

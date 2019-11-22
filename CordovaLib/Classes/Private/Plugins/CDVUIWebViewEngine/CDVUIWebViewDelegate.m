@@ -75,7 +75,7 @@
 //
 // TODO: Record order when page is re-navigated before the first navigation finishes.
 //
-
+#if !WK_WEB_VIEW_ONLY
 #import "CDVUIWebViewDelegate.h"
 
 // #define VerboseLog NSLog
@@ -397,3 +397,4 @@ static NSString *stripFragment(NSString* url)
 }
 
 @end
+#endif

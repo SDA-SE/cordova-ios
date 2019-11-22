@@ -17,6 +17,7 @@
  under the License.
  */
 
+#if !WK_WEB_VIEW_ONLY
 #import <UIKit/UIKit.h>
 #import "CDVAvailability.h"
 
@@ -39,3 +40,4 @@
 - (BOOL)request:(NSURLRequest*)newRequest isEqualToRequestAfterStrippingFragments:(NSURLRequest*)originalRequest;
 
 @end
+#endif
